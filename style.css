@@ -1,0 +1,151 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ font-family: 'Poppins', sans-serif;
+}
+
+body{
+     background-image: url(./image/4k-bmw-m4-gts-orange-9lyk452z7sazaa18.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-position: center;
+}
+#logo{
+     padding-left: 10px;
+     font-size: bold 2rem;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: bold;
+     color: rgb(245, 244, 250)         ;
+     text-shadow: 4px 4px 6px rgba(7, 7, 7, 0.6);
+     /* border: 2px 2px 2px 5px solid #f6f2f2; */
+     
+}
+
+ul{
+     display: flex;
+     list-style: none;
+     padding-bottom: 150px;
+     justify-content: space-between;
+     width: 50%;
+     margin: auto;
+}
+li a{
+     padding: 5px 10px;
+     background-color: #a5a4a47a;
+     border-radius: 35px;
+     text-decoration: none;
+   
+}
+
+li a:hover{
+     background-color: #12121251;
+     color: #fff;
+     transition: background-color .5s ease-in-out;
+     border-radius: 70% 50% /25% 45%;
+}
+
+li a:active{
+     background-color: #33333391;
+     color: #fff;
+}
+h1{
+     
+          color: #e6e6e6;
+          font-size: 3.5rem; /* Adjust based on design */
+          font-weight: bold;
+          text-shadow: 4px 5px 10px rgba(5, 0, 0, 0.6); /* Adds readability */
+          margin-bottom: 20px;
+      
+      
+}
+
+#pp{
+     color: #dcdcde;
+     font-size: bold;
+     font-size: 1.5rem;
+     text-shadow: 5px 4px 5px rgb(12, 0, 0);
+     font-weight: bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#pp:hover{
+     color: #f6f2f2;
+     transition: color .5s ease-in-out;
+}
+
+#submit-button{
+     margin-top: 15px;
+     padding: 10px 10px;
+     background-color: rgba(248, 244, 244, 0.243);
+     border: solid .5px #f6f2f2;
+     border-radius: 10px;
+     color: #fff;
+     text-decoration: none;
+}
+
+#submit-button a {
+     text-decoration: none;
+     color: #fff;
+}
+
+#submit-button:hover{
+     background-color: #33333391;
+     color: #fff;
+     transition: background-color .5s ease-in-out;
+     border-radius: 32px 64px;
+     border: none;
+}
+
+
+/* ...existing code... */
+
+@media (max-width: 768px) {
+     #submit-button {
+         width: 100%;
+         padding: 10px;
+     }
+ 
+     #drive {
+         width: 100%;
+         padding: 5px;
+     }
+ }
+ 
+ @media (max-width: 480px) {
+     #submit-button {
+         width: 100%;
+         padding: 8px;
+         font-size: 14px;
+     }
+ 
+     #drive {
+         width: 100%;
+         padding: 5px;
+         font-size: 14px;
+     }
+ }
+ 
+ /* ...existing code... */
+
+#submit-button:active{
+     background-color: #fbf6f6d6;
+     color: #030303;
+}
+
+#drive{
+     padding: 10px 10px;
+     background-color: rgba(11, 11, 11, 0.36);
+     border: none;
+     border-radius: 10px;
+     color: #fff;
+}
+
+#drive:hover{
+     background-color: #dddada5c;
+     color: #060606;
+     transition: background-color .5s ease-in-out;
+     border-radius: 32px 64px;
+     border: none;
+}
